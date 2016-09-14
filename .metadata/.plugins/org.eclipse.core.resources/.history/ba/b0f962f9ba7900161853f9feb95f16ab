@@ -1,0 +1,16 @@
+package i;
+
+public class Lesson4 {
+
+	public static void main(String[] args) {
+		/*1.
+		 *"109"
+		 *"104"
+		 */
+		int h = 103;
+		int p = 5;
+		System.out.println((h++)+p);
+		System.out.println(h);
+	}
+
+}

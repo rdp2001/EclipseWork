@@ -1,0 +1,15 @@
+package i;
+
+import quarter1.String;
+
+public class Homework {
+
+	public static void main(String[] args) {
+		//1
+		String s = "The number of rabbits is";
+		int argh = 129;
+		String report = s + " " + argh + ".";
+		System.out.println(report);
+	}
+
+}

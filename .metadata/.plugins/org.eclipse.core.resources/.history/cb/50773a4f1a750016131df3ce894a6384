@@ -1,0 +1,27 @@
+package i;
+
+public class tester {
+	public static void main(String[] args) {
+		String a ="square";
+		String b = "circle";
+		String[] circle = {" * ","* *"," * "};
+		String[] square = {"***","* *","***"};
+		String[] test = new String[3];
+		String[] test2 = new String[3];
+		a.toLowerCase();
+		b.toLowerCase();
+		if(a == "circle") {
+			System.arraycopy(circle, 0, test, 0, circle.length);
+		}else if(a == "square") {
+			System.arraycopy(square, 0, test, 0, square.length);
+		}
+		if(b == "circle") {
+			System.arraycopy(circle, 0, test2, 0, circle.length);
+		}else if(b == "square") {
+			System.arraycopy(square, 0, test2, 0, square.length);
+		}
+		System.out.println(test[0] + " " + test2[0]);
+		System.out.println(test[1] + " " + test2[1]);
+		System.out.println(test[2] + " " + test2[2]);
+	}
+}

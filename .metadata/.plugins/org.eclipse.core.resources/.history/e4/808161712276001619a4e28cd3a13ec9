@@ -1,0 +1,11 @@
+package quarter1;
+
+public class NameThatCelebrity {
+/*Richard Paul
+ * Sep 8, 2016
+ */
+	public static void main(String[] args) {
+
+	}
+
+}

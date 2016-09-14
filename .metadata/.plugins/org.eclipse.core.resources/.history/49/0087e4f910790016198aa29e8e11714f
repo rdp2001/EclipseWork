@@ -1,0 +1,15 @@
+package i;
+
+/*Richard Paul
+ * 9.12.16
+ * Explore Casting*/
+public class DataTypes {
+
+	public static void main(String[] args) {
+		double x = 5, y = 12;
+		double z;
+		z = x/y;
+		System.out.println(z);
+	}
+
+}

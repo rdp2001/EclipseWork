@@ -1,0 +1,42 @@
+package i;
+
+public class tester {
+	public static void main(String[] args) {
+		String a = "square";
+		String b = "circle";
+		String c = "square";
+		String d = "circle";
+		String[] circle = { " * ", "* *", " * " };
+		String[] square = { "***", "* *", "***" };
+		String[] test1 = new String[3];
+		String[] test2 = new String[3];
+		String[] test3 = new String[3];
+		String[] test4 = new String[3];
+		a.toLowerCase();
+		b.toLowerCase();
+		if (a == "circle") {
+			System.arraycopy(circle, 0, test1, 0, circle.length);
+		} else if (a == "square") {
+			System.arraycopy(square, 0, test1, 0, square.length);
+		}
+		if (b == "circle") {
+			System.arraycopy(circle, 0, test2, 0, circle.length);
+		} else if (b == "square") {
+			System.arraycopy(square, 0, test2, 0, square.length);
+		}
+		if (c == "circle") {
+			System.arraycopy(circle, 0, test3, 0, circle.length);
+		} else if (c == "square") {
+			System.arraycopy(square, 0, test3, 0, square.length);
+		}
+		if (d == "circle") {
+			System.arraycopy(circle, 0, test4, 0, circle.length);
+		} else if (d == "square") {
+			System.arraycopy(square, 0, test4, 0, square.length);
+		}
+		System.out.println(test1[0] + " " + test2[0] + " " + test3[0] + " " + test4[0]);
+		System.out.println(test1[1] + " " + test2[1] + " " + test3[1] + " " + test4[1]);
+		System.out.println(test1[2] + " " + test2[2] + " " + test3[2] + " " + test4[2]);
+		
+	}
+}
