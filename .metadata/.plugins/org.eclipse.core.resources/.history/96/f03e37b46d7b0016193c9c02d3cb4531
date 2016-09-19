@@ -1,0 +1,15 @@
+package i;
+
+import java.util.Scanner;
+
+public class Squares {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a Number: ");
+		double num = sc.nextDouble();
+		System.out.println("\nThe square of "+num+" is "+Math.pow(num, 2.0));
+		System.out.println("The square of "+num+" is "+Math.pow(num, 3.0));
+	}
+
+}

@@ -1,0 +1,28 @@
+package i;
+
+import java.util.Scanner;
+
+public class CylinderSurfaceArea {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the radius of the Cylinder: ");
+		double rad = sc.nextDouble();
+		System.out.print("Enter the height of the Cylinder: ");
+		double height = sc.nextDouble();
+		System.out.print("Your Surface Area Estimate: ");
+		double estimate = sc.nextDouble();
+		double sarea = 2 * Math.PI * rad * (rad + height);
+		System.out.println(
+				"The surface area with Radius=" + rad + " and Height=" + height + " is " + sarea + " cubic units.\n");
+		if(estimate>=0) {
+		System.out.println("Your estimate of " + estimate + " cubic units is "
+				+ (100 * Math.abs((estimate - sarea) / sarea)) + "% above the Surface Area.");
+		}else {
+			System.out.println("Your estimate of " + estimate + " cubic units is "
+					+ (100 * Math.abs((estimate - sarea) / sarea)) + "% less than the Surface Area.");
+		}
+
+	}
+
+}

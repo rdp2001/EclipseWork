@@ -1,0 +1,21 @@
+package i;
+
+import java.util.Scanner;
+
+public class QuadraticFormula {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 3 Numbers to Solve(A,B,then C): ");
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
+		double c = sc.nextDouble();
+		if ((b*b-4*a*c)<0)
+			System.out.println("No Real Solution");
+		else {
+			System.out.println("The discriminant is: "+(Math.sqrt(b*b-4*a*c)));
+			System.out.println("The roots are: "+(Math.sqrt(b*b-4*a*c)-b)/(2*a)+", "+(-(Math.sqrt(b*b-4*a*c))-b)/(2*a));
+		}
+	}
+
+}

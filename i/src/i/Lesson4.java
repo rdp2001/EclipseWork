@@ -19,7 +19,7 @@ public class Lesson4 {
 		 *6. 
 		 *v-=p-30;
 		 *7.
-		 *v=v-p+30
+		 *v=v-p+30;
 		 *8. 
 		 *-22
 		 *9.
@@ -83,7 +83,6 @@ public class Lesson4 {
 		 *18.
 		 *Yes, 3.
 		 */
-		
 		
 	}
 

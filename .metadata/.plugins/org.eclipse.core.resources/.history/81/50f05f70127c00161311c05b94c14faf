@@ -1,0 +1,24 @@
+package i;
+/* Richard Paul
+ * 9/16
+ * Enter 2 numbers, then prints basic math operations. 
+ */
+import java.util.Scanner;
+
+public class OperationsOnIntegers {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter first integer: ");
+		int num1 = sc.nextInt();
+		System.out.print("Enter second integer: ");
+		int num2 = sc.nextInt();
+		sc.close();
+		System.out.println("The sum is: "+(num1+num2));
+		System.out.println("The difference is: "+num1-num2);
+		System.out.println("The product is: ");
+		System.out.println("The quotient is: ");
+		
+	}
+
+}

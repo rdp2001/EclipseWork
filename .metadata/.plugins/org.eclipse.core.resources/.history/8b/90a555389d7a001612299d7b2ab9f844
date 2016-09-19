@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class TestScanner {
+
+	public static void main(String[] args) {
+		int num1, num2, num3;
+		double av;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter 3 Integers: ");
+		num1 = input.nextInt();
+		num2 = input.nextInt();
+		num3 = input.nextInt();
+	}
+
+}

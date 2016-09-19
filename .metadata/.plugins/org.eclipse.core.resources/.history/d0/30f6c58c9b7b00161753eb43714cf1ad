@@ -1,0 +1,19 @@
+package i;
+
+public class MathHomework {
+
+	public static void main(String[] args) {
+		/* 1.
+		 * y=Math.sqrt(x);
+		 * 2.
+		 * k=j*Math.abs(m);
+		 * 3.
+		 * No, it cannot perform an int absolute value on a double.
+		 * 4.
+		 * System.out.print(Math.pow(2,1.5));
+		 */
+		System.out.print(Math.pow(2,1.5));
+		
+	}
+
+}

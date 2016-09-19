@@ -1,0 +1,11 @@
+package i;
+
+public class Circles {
+
+	public static void main(String[] args) {
+		double area = 1;
+		double r = Math.sqrt(area/Math.PI);
+		System.out.println(r);
+	}
+
+}

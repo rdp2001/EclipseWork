@@ -1,0 +1,17 @@
+package i;
+
+public class MathHomework {
+
+	public static void main(String[] args) {
+		/* 1.
+		 * y=Math.sqrt(x);
+		 * 2.
+		 * k=j*Math.abs(m);
+		 * 3.
+		 * 
+		 */
+		int k = Math.abs(-127.5);
+		
+	}
+
+}
